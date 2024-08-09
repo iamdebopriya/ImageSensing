@@ -311,5 +311,17 @@ if task == "Chest Disease Detection":
             st.write(f"**Medication:** {chest_advice[chest_class]['Medication']}")
             st.write(f"**Surgery:** {chest_advice[chest_class]['Surgery']}")
             st.write(f"**Diets:** {chest_advice[chest_class]['Diets']}")
+st.write("Made with ❤️ by HealthAI")      
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #E6E6FA; /* Lavender background color */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
        
